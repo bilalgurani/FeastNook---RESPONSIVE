@@ -30,9 +30,7 @@
   .section-gallary {
     padding: 8rem 1.5rem;
   }
-  .section-pricing {
-    padding: 8rem 0;
-  }
+
   .main-nav-list {
     gap: 1.8rem;
   }
@@ -94,6 +92,11 @@
   .pricing-plan {
     padding: 3.2rem;
   }
+  @keyframes typewriter {
+    100% {
+      width: 5px;
+    }
+  }
 }
 /* BELOW 840 */
 @media (max-width: 52.5em) {
@@ -116,15 +119,10 @@
   .meals-imgs {
     justify-content: center;
   }
-  .section -gallary {
+  .section-gallary {
     padding: 4.8rem 1rem;
   }
-  .section-specialities {
-    padding: 6.4rem;
-  }
-  .section-pricing {
-    padding: 4.8rem 0;
-  }
+
   .logo {
     height: 8rem;
   }
@@ -297,9 +295,7 @@
   .grid {
     row-gap: 4.8rem;
   }
-  .hero {
-    padding: 0 3.2rem;
-  }
+
   .section-hero {
     padding: 2.4rem 0 6.4rem 0;
   }
@@ -343,16 +339,11 @@
   .section-desserts {
     padding: 9.6rem 0;
   }
-  .container {
-    padding: 0 4.8rem;
-  }
   .grid {
     justify-content: center; /* centers items horizontally */
     align-items: center;
   }
-  .pricing-plan {
-    width: 60%;
-  }
+
   .pricing-plan--starter {
     justify-self: center;
   }
@@ -371,7 +362,7 @@
     font-size: 1.4rem;
   }
   .pricing-plan {
-    width: 70%;
+    max-width: 90%;
   }
   .cta {
     grid-template-columns: 1fr;
@@ -384,6 +375,11 @@
   }
   .cta-form {
     grid-template-columns: 1fr;
+  }
+  @keyframes typewriter {
+    100% {
+      width: 105px;
+    }
   }
 }
 /* SPACING - 2, 4, 8, 12, 16, 24, 32, 48, 64, 80, 96, 128
