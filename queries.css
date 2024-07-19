@@ -1,0 +1,391 @@
+/* BELOW 1360px */
+@media (max-width: 83.125em) {
+  .hero {
+    max-width: 120rem;
+  }
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+  .hero-description {
+    font-size: 1.8rem;
+  }
+  .main-nav-list {
+    gap: 2.4rem;
+  }
+}
+
+/* BELOW 1160px */
+@media (max-width: 74.18em) {
+  html {
+    /* 9.2px / 16px */
+    font-size: 57%;
+  }
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 8rem;
+  }
+  .section-desserts {
+    padding: 8rem 0;
+  }
+  .section-gallary {
+    padding: 8rem 1.5rem;
+  }
+  .section-pricing {
+    padding: 8rem 0;
+  }
+  .main-nav-list {
+    gap: 1.8rem;
+  }
+  .plan-feature {
+    font-size: 1.4rem;
+  }
+  @keyframes typewriter {
+    100% {
+      width: 190px;
+    }
+  }
+}
+/* BELOW 950px */
+@media (max-width: 59.37em) {
+  html {
+    /* 9px / 16px */
+    font-size: 56.25%;
+  }
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+  .footer {
+    padding: 8rem 0;
+  }
+  .grid {
+    column-gap: 3.2rem;
+    row-gap: 4.8rem;
+  }
+  .header {
+    padding: 0 3.2rem;
+  }
+  .main-nav-list {
+    gap: 1.6rem;
+  }
+  .plan-feature {
+    font-size: 1.2rem;
+  }
+  @keyframes typewriter {
+    100% {
+      width: 190px;
+    }
+  }
+}
+/* BELOW 900 */
+@media (max-width: 56.25em) {
+  html {
+    /* 8.5px / 16px */
+    font-size: 53.25%;
+  }
+  .section-hero {
+    padding: 3.2rem 0 8rem 0;
+  }
+  .pricing-plan {
+    padding: 3.2rem;
+  }
+}
+/* BELOW 840 */
+@media (max-width: 52.5em) {
+  html {
+    /* 7.8px / 16px */
+    font-size: 48.75%;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+  }
+  .hero-img {
+    width: 60%;
+  }
+  .hero-text-box {
+    text-align: center;
+  }
+  .hero-img-box {
+    text-align: center;
+  }
+  .meals-imgs {
+    justify-content: center;
+  }
+  .section -gallary {
+    padding: 4.8rem 1rem;
+  }
+  .section-specialities {
+    padding: 6.4rem;
+  }
+  .section-pricing {
+    padding: 4.8rem 0;
+  }
+  .logo {
+    height: 8rem;
+  }
+  .spec-number {
+    font-size: 7.4rem;
+  }
+  .heading-secondary {
+    margin-bottom: 7.4rem;
+  }
+  .dessert-content {
+    padding: 2.4rem;
+  }
+  .btn-mobile-nav {
+    display: block;
+  }
+  .plan-item {
+    font-size: 1.4rem;
+  }
+  .main-nav {
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-100%);
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    z-index: 3;
+  }
+  .main-nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+    opacity: 0;
+    transition: opacity 0.01s ease-out;
+  }
+
+  .nav-open .main-nav-list {
+    opacity: 1;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
+    color: #121212;
+    opacity: 0;
+    transition: opacity 0.01s ease-out;
+  }
+  .nav-open .main-nav-link:link,
+  .nav-open .main-nav-link:visited {
+    opacity: 1;
+  }
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+  .main-nav-link.nav-cta:link,
+  .main-nav-link.nav-cta:visited {
+    background-color: #ffb300;
+  }
+  @keyframes typewriter {
+    100% {
+      width: 175px;
+    }
+  }
+}
+
+/* BELOW 700 */
+@media (max-width: 43.75em) {
+  .cta-text-box {
+    padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+  }
+  .cta-form {
+    column-gap: 2.4rem;
+    row-gap: 1.6rem;
+  }
+
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid {
+    column-gap: 2.4rem;
+    row-gap: 3.2rem;
+  }
+  .grid--footer {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .logo-col,
+  .address {
+    grid-column: span 3;
+  }
+  .nav-col {
+    grid-row: 1;
+    grid-column: span 2;
+    margin-bottom: 3.2rem;
+  }
+  .spec-description {
+    font-size: 1.6rem;
+  }
+  .pricing-header {
+    margin-bottom: 2.4rem;
+  }
+  .features-list {
+    gap: 1.4rem;
+  }
+  .pricing-plan--complete::after {
+    right: -25%;
+    transform: rotate(45deg);
+    top: 3%;
+  }
+  .plan-item {
+    font-size: 1.2rem;
+  }
+  .cta-text-box {
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+  }
+  .cta-text {
+    margin-bottom: 3.2rem;
+  }
+  .cta-form input,
+  .cta-form select {
+    padding: 1.4rem;
+    font-size: 1.2rem;
+  }
+}
+/* BELOW 640 */
+@media (max-width: 40em) {
+  html {
+    /* 6.5/16 =40.62 */
+    font-size: 40.62%;
+  }
+}
+/* BELOW 540 */
+@media (max-width: 33.75em) {
+  html {
+    /* 6/16 = 37.5 */
+    font-size: 37.5%;
+  }
+}
+
+/* BELOW 540 */
+@media (max-width: 26.56em) {
+  html {
+    /* 5/16 = 37.5 */
+    font-size: 31.25%;
+  }
+  .grid--2-cols,
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+  }
+  .dessert-content {
+    padding: 3.2rem 3.2rem 3.2rem 3.2rem;
+  }
+  .grid {
+    row-gap: 4.8rem;
+  }
+  .hero {
+    padding: 0 3.2rem;
+  }
+  .section-hero {
+    padding: 2.4rem 0 6.4rem 0;
+  }
+  .btn--full,
+  .btn--full:link,
+  .btn--full:visited {
+    padding: 1.6rem 2.4rem;
+  }
+
+  .btn--sign-up:link,
+  .btn--sign-up:visited {
+    padding: 1.6rem 2.4rem;
+  }
+  .btn--outline:link,
+  .btn--outline:visited {
+    padding: 1.4rem 2.4rem;
+  }
+  .hero-img {
+    width: 60%;
+  }
+  .spec-img {
+    width: 35%;
+  }
+  .spec-img-box::before,
+  .spec-img-box::after {
+    border-radius: 50%;
+  }
+  .spec-img-box::before {
+    width: 50%;
+    padding-bottom: 50%;
+  }
+  .spec-img-box:nth-child(2) {
+    grid-row: 2;
+  }
+  .spec-img-box:nth-child(2) {
+    grid-row: 4;
+  }
+  .spec-img-box {
+    transform: translateY(-1.4rem);
+  }
+  .section-desserts {
+    padding: 9.6rem 0;
+  }
+  .container {
+    padding: 0 4.8rem;
+  }
+  .grid {
+    justify-content: center; /* centers items horizontally */
+    align-items: center;
+  }
+  .pricing-plan {
+    width: 60%;
+  }
+  .pricing-plan--starter {
+    justify-self: center;
+  }
+  .pricing-plan--complete {
+    justify-self: center;
+  }
+  .pricing-plan--complete::after {
+    right: -15%;
+    transform: rotate(45deg);
+    top: 5%;
+  }
+  .plan-item {
+    font-size: 1.4rem;
+  }
+  .plan-feature {
+    font-size: 1.4rem;
+  }
+  .pricing-plan {
+    width: 70%;
+  }
+  .cta {
+    grid-template-columns: 1fr;
+  }
+  .cta-img-box {
+    height: 32rem;
+    grid-row: 1;
+    background-size: cover;
+    background-position: center;
+  }
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+}
+/* SPACING - 2, 4, 8, 12, 16, 24, 32, 48, 64, 80, 96, 128
+FONT SIZE - 10, 12, 14, 16, 18, 20, 24, 30, 36, 44, 52, 62, 74, 86, 98 
+  */

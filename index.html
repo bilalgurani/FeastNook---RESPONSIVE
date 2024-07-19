@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="FeastNook is a food recipe webpage for the foodies"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/fevicon.png" />
+    <link rel="link" href="manifest.webmanifest" />
+    <script defer src="scripts.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <title>Welcome to FeastNook - Your Culinary Paradise</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img class="logo" src="img/logo.png" alt="FeastNook logo" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li>
+            <a class="main-nav-link" href="#specialities">Specialities</a>
+          </li>
+          <li><a class="main-nav-link" href="#desserts">Desserts</a></li>
+          <li><a class="main-nav-link" href="#gallary">Gallary</a></li>
+          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#sign-up">Sign up</a></li>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <main>
+      <section class="section-hero">
+        <div class="hero grid">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              Discover the joy of <span class="text-eating">eating</span> with
+              our
+              <div class="loader-container">
+                <div class="loader">
+                  <span class="loader-text"> exquisite</span>
+                </div>
+              </div>
+              menu
+            </h1>
+            <p class="hero-description">
+              Indulge in a culinary adventure with our curated selection of
+              mouth-watering dishes, crafted with love and the finest
+              ingredients. At FeastNook, we bring the world's flavors to your
+              plate, promising a delightful dining experience every time.
+            </p>
+            <a href="#desserts" class="btn btn--full margin-right-16"
+              >Explore Our Menu</a
+            >
+            <a href="#sign-up" class="btn btn--outline"
+              >Order now <span class="arrow">&darr;</span></a
+            >
+            <div class="meals">
+              <div class="meals-imgs">
+                <img src="img/meals/meal-1.webp" alt="" />
+                <img src="img/meals/meal-2.webp" alt="" />
+                <img src="img/meals/meal-3.webp" alt="" />
+                <img src="img/meals/meal-4.webp" alt="" />
+                <img src="img/meals/meal-5.webp" alt="" />
+                <img src="img/meals/meal-6.webp" alt="" />
+                <img src="img/meals/meal-7.webp" alt="" />
+                <img src="img/meals/meal-8.webp" alt="" />
+              </div>
+              <p class="meals-text">Over 100+ delicious dishes!</p>
+            </div>
+          </div>
+          <div class="hero-img-box">
+            <img
+              src="img/hero.png"
+              class="hero-img"
+              alt="Image of variety of dishes"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="section-specialities" id="specialities">
+        <div class="container">
+          <span class="subheading"
+            >Experience culinary excellence with every bite</span
+          >
+          <h2 class="heading-secondary txt-align-center">Our Specialities</h2>
+        </div>
+        <div class="container grid grid--2-cols grid--center-v">
+          <!-- STEP 01 -->
+          <div class="spec-text-box">
+            <div class="spec-number">01</div>
+            <h3 class="heading-tertiary">Black Pepper Chicken</h3>
+            <div class="spec-description">
+              Savor the robust flavors of our Black Pepper Chicken, featuring
+              tender chicken pieces marinated in a blend of freshly ground black
+              pepper, soy sauce, garlic, and ginger, stir-fried to perfection
+              with bell peppers and onions. This dish offers a perfect balance
+              of heat and savory richness, served with steamed jasmine rice.
+            </div>
+          </div>
+          <div class="spec-img-box">
+            <img class="spec-img" src="img/specialities/spec-1.webp" alt="" />
+          </div>
+          <!-- STEP 02 -->
+          <div class="spec-img-box">
+            <img class="spec-img" src="img/specialities/spec-2.webp" alt="" />
+          </div>
+          <div class="spec-text-box">
+            <div class="spec-number">02</div>
+            <h3 class="heading-tertiary">Chicken Cafreal</h3>
+            <div class="spec-description">
+              Enjoy the aromatic and spicy taste of Chicken Cafreal, a classic
+              Goan dish made with chicken marinated in a vibrant green paste of
+              fresh coriander, mint, green chilies, and a blend of spices. The
+              chicken is then pan-fried or grilled until succulent and bursting
+              with flavor, often served with potato wedges or steamed rice.
+            </div>
+          </div>
+          <!-- STEP 03 -->
+          <div class="spec-text-box">
+            <div class="spec-number">03</div>
+            <h3 class="heading-tertiary">Murg Musallam</h3>
+            <div class="spec-description">
+              Indulge in the royal flavors of Murg Musallam, a lavish Mughlai
+              dish featuring a whole chicken marinated with a rich mixture of
+              yogurt, spices, and herbs. The chicken is then slow-cooked to
+              tender perfection in a creamy gravy made from onions, tomatoes,
+              almonds, and aromatic spices like cardamom, cloves, and saffron.
+              This grand dish is traditionally served with fragrant basmati rice
+              or warm naan bread.
+            </div>
+          </div>
+          <div class="spec-img-box">
+            <img class="spec-img" src="img/specialities/spec-3.webp" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="section-desserts" id="desserts">
+        <div class="container">
+          <span class="subheading"
+            >Enjoy our tasty desserts, made with the best ingredients and rated
+            for taste and nutrition</span
+          >
+          <h2 class="heading-secondary txt-align-center">
+            Our Delicious Desserts
+          </h2>
+        </div>
+        <div class="container grid grid--3-cols margin-btm-48">
+          <div class="dessert">
+            <img src="img/desserts/des-1.webp" class="dessert-img" alt="" />
+            <div class="dessert-content">
+              <div class="tags">
+                <p class="tag tag-veg">vegetarian</p>
+              </div>
+              <p class="dessert-title">Strawberry Cheesecake</p>
+              <ul class="dessert-attributes">
+                <li class="dessert-attribute">
+                  <ion-icon
+                    class="dessert-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  Nutri-Score: <strong>B</strong>
+                </li>
+                <li class="dessert-attribute">
+                  <ion-icon class="dessert-icon" name="star-outline"></ion-icon
+                  >Rating: <strong>★★★★★</strong>
+                </li>
+                <li class="dessert-attribute">
+                  <ion-icon class="dessert-icon" name="flame-outline"></ion-icon
+                  >Calories: <strong>350 kcal (450)</strong>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="dessert">
+            <img src="img/desserts/des-2.webp" class="dessert-img" alt="" />
+            <div class="dessert-content">
+              <div class="tags">
+                <p class="tag tag-veg">vegetarian</p>
+              </div>
+              <p class="dessert-title">Strawberry Cheesecake</p>
+              <ul class="dessert-attributes">
+                <li class="dessert-attribute">
+                  <ion-icon
+                    class="dessert-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  Nutri-Score: <strong>B</strong>
+                </li>
+                <li class="dessert-attribute">
+                  <ion-icon class="dessert-icon" name="star-outline"></ion-icon
+                  >Rating: <strong>★★★★★</strong>
+                </li>
+                <li class="dessert-attribute">
+                  <ion-icon class="dessert-icon" name="flame-outline"></ion-icon
+                  >Calories: <strong>350 kcal (450)</strong>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="dessert">
+            <img src="img/desserts/des-3.webp" class="dessert-img" alt="" />
+            <div class="dessert-content">
+              <div class="tags">
+                <p class="tag tag-non-veg">Non-Veg</p>
+              </div>
+              <p class="dessert-title">Red Velvet Cupcake</p>
+              <ul class="dessert-attributes">
+                <li class="dessert-attribute">
+                  <ion-icon
+                    class="dessert-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  Nutri-Score: <strong>B</strong>
+                </li>
+                <li class="dessert-attribute">
+                  <ion-icon class="dessert-icon" name="star-outline"></ion-icon
+                  >Rating: <strong>★★★★★</strong>
+                </li>
+                <li class="dessert-attribute">
+                  <ion-icon class="dessert-icon" name="flame-outline"></ion-icon
+                  >Calories: <strong>350 kcal (450)</strong>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="dessert">
+            <img src="img/desserts/des-4.webp" class="dessert-img" alt="" />
+            <div class="dessert-content">
+              <div class="tags">
+                <p class="tag tag-veg">vegetarian</p>
+              </div>
+              <p class="dessert-title">Apple Pie</p>
+              <ul class="dessert-attributes">
+                <li class="dessert-attribute">
+                  <ion-icon
+                    class="dessert-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  Nutri-Score: <strong>B</strong>
+                </li>
+                <li class="dessert-attribute">
+                  <ion-icon class="dessert-icon" name="star-outline"></ion-icon
+                  >Rating: <strong>★★★★★</strong>
+                </li>
+                <li class="dessert-attribute">
+                  <ion-icon class="dessert-icon" name="flame-outline"></ion-icon
+                  >Calories: <strong>350 kcal (450)</strong>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="dessert">
+            <img src="img/desserts/des-1.webp" class="dessert-img" alt="" />
+            <div class="dessert-content">
+              <div class="tags">
+                <p class="tag tag-veg">vegetarian</p>
+              </div>
+              <p class="dessert-title">Strawberry Cheesecake</p>
+              <ul class="dessert-attributes">
+                <li class="dessert-attribute">
+                  <ion-icon
+                    class="dessert-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  Nutri-Score: <strong>B</strong>
+                </li>
+                <li class="dessert-attribute">
+                  <ion-icon class="dessert-icon" name="star-outline"></ion-icon
+                  >Rating: <strong>★★★★★</strong>
+                </li>
+                <li class="dessert-attribute">
+                  <ion-icon class="dessert-icon" name="flame-outline"></ion-icon
+                  >Calories: <strong>350 kcal (450)</strong>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="dessert">
+            <img src="img/desserts/des-6.webp" class="dessert-img" alt="" />
+            <div class="dessert-content">
+              <div class="tags">
+                <p class="tag tag-non-veg">Non-Veg</p>
+              </div>
+              <p class="dessert-title">Chocolate Lava Cake</p>
+              <ul class="dessert-attributes">
+                <li class="dessert-attribute">
+                  <ion-icon
+                    class="dessert-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  Nutri-Score: <strong>B</strong>
+                </li>
+                <li class="dessert-attribute">
+                  <ion-icon class="dessert-icon" name="star-outline"></ion-icon
+                  >Rating: <strong>★★★★★</strong>
+                </li>
+                <li class="dessert-attribute">
+                  <ion-icon class="dessert-icon" name="flame-outline"></ion-icon
+                  >Calories: <strong>350 kcal (450)</strong>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="container dessert-all-link">
+          <a href="#" class="dessert-link">
+            <span class="hover-underline">See all Desserts</span>
+            <svg
+              id="arrow-horizontal"
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="10"
+              viewBox="0 0 46 16"
+            >
+              <path
+                id="Path_10"
+                data-name="Path 10"
+                d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
+                transform="translate(30)"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </section>
+      <section class="section-gallary gallary" id="gallary">
+        <figure class="item item--1">
+          <img class="testi-img" src="img/Testimonials/test-1.webp" alt="" />
+        </figure>
+        <figure class="item item--2">
+          <img class="testi-img" src="img/Testimonials/test-2.webp" alt="" />
+        </figure>
+        <figure class="item item--3">
+          <img class="testi-img" src="img/Testimonials/test-3.webp" alt="" />
+        </figure>
+        <figure class="item item--4">
+          <img class="testi-img" src="img/Testimonials/test-4.webp" alt="" />
+        </figure>
+        <figure class="item item--5">
+          <img class="testi-img" src="img/Testimonials/test-5.webp" alt="" />
+        </figure>
+        <figure class="item item--6">
+          <img class="testi-img" src="img/Testimonials/test-6.webp" alt="" />
+        </figure>
+        <figure class="item item--7">
+          <img class="testi-img" src="img/Testimonials/test-7.webp" alt="" />
+        </figure>
+        <figure class="item item--8">
+          <img class="testi-img" src="img/Testimonials/test-8.webp" alt="" />
+        </figure>
+        <figure class="item item--9">
+          <img class="testi-img" src="img/Testimonials/test-9.webp" alt="" />
+        </figure>
+        <figure class="item item--10">
+          <img class="testi-img" src="img/Testimonials/test-10.webp" alt="" />
+        </figure>
+        <figure class="item item--11">
+          <img class="testi-img" src="img/Testimonials/test-11.webp" alt="" />
+        </figure>
+        <figure class="item item--12">
+          <img class="testi-img" src="img/Testimonials/test-12.webp" alt="" />
+        </figure>
+        <figure class="item item--13">
+          <img class="testi-img" src="img/Testimonials/test-13.webp" alt="" />
+        </figure>
+      </section>
+      <section class="section-pricing" id="pricing">
+        <div class="container">
+          <span class="subheading"
+            >Enjoy a wide range of delicious dishes at great prices.<br />
+            Find your favorite meal and indulge in a culinary delight</span
+          >
+          <h2 class="heading-secondary txt-align-center">Our Pricing</h2>
+        </div>
+        <div class="container grid grid--2-cols">
+          <div class="pricing-plan pricing-plan--starter">
+            <header class="pricing-header">
+              <p class="plan-name">starter</p>
+              <p class="plan-price"><span>₹</span>1499</p>
+              <p class="plan-desc">
+                Fresh, light, and delicious dishes for a quick, healthy meal.
+              </p>
+            </header>
+
+            <ul class="features-list">
+              <li class="plan-feature">
+                <ion-icon
+                  class="plan-list-icon"
+                  name="checkmark-outline"
+                ></ion-icon
+                ><strong>Meals: </strong>
+              </li>
+              <li class="plan-feature plan-meals">
+                <ul class="pricing-list">
+                  <li class="plan-item">
+                    <ion-icon
+                      class="plan-list-icon-sm"
+                      name="checkmark-outline"
+                    ></ion-icon
+                    >Mediterranean Salad
+                  </li>
+                  <li class="plan-item">
+                    <ion-icon
+                      class="plan-list-icon-sm"
+                      name="checkmark-outline"
+                    ></ion-icon
+                    >Red Velvet Cupcake
+                  </li>
+                  <li class="plan-item">
+                    <ion-icon
+                      class="plan-list-icon-sm"
+                      name="checkmark-outline"
+                    ></ion-icon
+                    >Lemon Tart
+                  </li>
+                </ul>
+              </li>
+              <li class="plan-feature">
+                <ion-icon
+                  class="plan-list-icon"
+                  name="checkmark-outline"
+                ></ion-icon
+                ><strong>Serves: </strong>2 people
+              </li>
+              <li class="plan-feature">
+                <ion-icon
+                  class="plan-list-icon"
+                  name="checkmark-outline"
+                ></ion-icon
+                ><strong>Timings: </strong>6pm to 8pm
+              </li>
+              <li class="plan-feature">
+                <ion-icon
+                  class="plan-list-icon cross-red"
+                  name="close-outline"
+                ></ion-icon
+                ><strong>Unlimited drinks: </strong>No
+              </li>
+              <li class="plan-feature">
+                <ion-icon
+                  class="plan-list-icon cross-red"
+                  name="close-outline"
+                ></ion-icon
+                ><strong>Unlimited food: </strong>No
+              </li>
+              <li class="plan-feature">
+                <ion-icon
+                  class="plan-list-icon cross-red"
+                  name="close-outline"
+                ></ion-icon
+                ><strong>Unlimited food: </strong>No
+              </li>
+              <li class="plan-feature">
+                <ion-icon
+                  class="plan-list-icon cross-red"
+                  name="close-outline"
+                ></ion-icon
+                ><strong>A/C room: </strong>No
+              </li>
+            </ul>
+            <div class="plan-sign-up">
+              <a href="#" class="btn btn--sign-up">Start eating well</a>
+            </div>
+          </div>
+          <div class="pricing-plan pricing-plan--complete">
+            <header class="pricing-header">
+              <p class="plan-name">complete</p>
+              <p class="plan-price"><span>₹</span>3599</p>
+              <p class="plan-desc">
+                A full-course meal with a variety of dishes, perfect for family
+                dinners!
+              </p>
+            </header>
+            <ul class="features-list">
+              <li class="plan-feature">
+                <ion-icon
+                  class="plan-list-icon"
+                  name="checkmark-outline"
+                ></ion-icon
+                ><strong>Meals: </strong>
+              </li>
+              <li class="plan-feature plan-meals">
+                <ul class="pricing-list">
+                  <li class="plan-item">
+                    <ion-icon
+                      class="plan-list-icon-sm"
+                      name="checkmark-outline"
+                    ></ion-icon
+                    >Gourmet Burger
+                  </li>
+                  <li class="plan-item">
+                    <ion-icon
+                      class="plan-list-icon-sm"
+                      name="checkmark-outline"
+                    ></ion-icon
+                    >Truffle Pasta
+                  </li>
+                  <li class="plan-item">
+                    <ion-icon
+                      class="plan-list-icon-sm"
+                      name="checkmark-outline"
+                    ></ion-icon
+                    >Grilled Salmon
+                  </li>
+                  <li class="plan-item">
+                    <ion-icon
+                      class="plan-list-icon-sm"
+                      name="checkmark-outline"
+                    ></ion-icon
+                    >Classic Margherita Pizza
+                  </li>
+                  <li class="plan-item">
+                    <ion-icon
+                      class="plan-list-icon-sm"
+                      name="checkmark-outline"
+                    ></ion-icon
+                    >Apple Pie
+                  </li>
+                </ul>
+              </li>
+              <li class="plan-feature">
+                <ion-icon
+                  class="plan-list-icon"
+                  name="checkmark-outline"
+                ></ion-icon
+                ><strong>Serves: </strong>4 people
+              </li>
+              <li class="plan-feature">
+                <ion-icon
+                  class="plan-list-icon"
+                  name="checkmark-outline"
+                ></ion-icon
+                ><strong>Timings: </strong>6pm to 11pm
+              </li>
+              <li class="plan-feature">
+                <ion-icon
+                  class="plan-list-icon"
+                  name="checkmark-outline"
+                ></ion-icon
+                ><strong>Unlimited drinks: </strong>Soft drinks
+              </li>
+              <li class="plan-feature">
+                <ion-icon
+                  class="plan-list-icon"
+                  name="checkmark-outline"
+                ></ion-icon
+                ><strong>Unlimited food: </strong>Yes
+              </li>
+
+              <li class="plan-feature">
+                <ion-icon
+                  class="plan-list-icon"
+                  name="checkmark-outline"
+                ></ion-icon
+                ><strong>A/C room: </strong>Yes
+              </li>
+            </ul>
+            <div class="plan-sign-up">
+              <a href="#" class="btn btn--sign-up">Start eating well</a>
+            </div>
+          </div>
+        </div>
+        <div class="container grid grid--4-cols">
+          <div class="feature">
+            <ion-icon class="feature-icon" name="fast-food-outline"></ion-icon>
+            <p class="feature-title">Carefully Curated Menus</p>
+            <p class="feature-text">
+              Each package is designed to offer a variety of dishes that
+              complement each other, providing a balanced and delicious meal.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="restaurant-outline"></ion-icon>
+            <p class="feature-title">Convenient Serving Sizes</p>
+            <p class="feature-text">
+              Packages are available in different serving sizes, making them
+              perfect for both small and large groups.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="hourglass-outline"></ion-icon>
+            <p class="feature-title">Quick and Easy Preparation</p>
+            <p class="feature-text">
+              Meals are prepared quickly, with the Starter Package ready in just
+              30 minutes and the Complete Food Package in 1 hour.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="cash-outline"></ion-icon>
+            <p class="feature-title">Affordable Pricing</p>
+            <p class="feature-text">
+              Enjoy gourmet meals at great prices, with the Starter Package
+              priced at ₹1499 and the Complete Food Package at ₹3599.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section-cta" id="sign-up">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">
+                Join Our Food Lover's Community!
+              </h2>
+              <p class="cta-text">
+                Sign up for exclusive discounts, early access to new menus,
+                personalized meal recommendations, and the latest culinary
+                updates.
+              </p>
+              <form action="#" class="cta-form">
+                <div>
+                  <label for="name-inp">Full name</label>
+                  <input
+                    id="name-inp"
+                    type="text"
+                    placeholder="Your name"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="email-inp">Email address</label>
+                  <input
+                    type="email"
+                    placeholder="youremail@gmail.com"
+                    id="email-inp"
+                    required
+                  />
+                </div>
+                <div>
+                  <lable for="social-select" class=""></lable>
+                  <select name="" id="social-select" required>
+                    <option value="">Please choose one option:</option>
+                    <option value="friends">Friends and family</option>
+                    <option value="yt">YouTube video</option>
+                    <option value="fb">Facebook ad</option>
+                    <option value="others">Others</option>
+                  </select>
+                </div>
+                <button type="submit" class="btn btn--form">Sign up now</button>
+              </form>
+            </div>
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="man enjoying food"
+            ></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="about">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#">
+            <img class="logo" src="img/logo.png" alt="FeastNook logo" />
+          </a>
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+          <p class="copyright">
+            &copy; <span class="year">2024</span> Foodies Delight. All Rights
+            Reserved.
+          </p>
+        </div>
+        <div class="address">
+          <p class="footer-header">Contact us</p>
+          <address class="contacts">
+            <p class="margin-btm-32">
+              114 College Street, saptapur, Dharwad - 580008, KA
+            </p>
+            <p>
+              <a class="footer-link" href="tel:7019257913">+91 7019257913</a
+              ><br />
+              <a class="footer-link" href="mailto:bilalahamedgurani@gmail.com"
+                >bilalahamedgurani@gmail.com</a
+              >
+            </p>
+          </address>
+        </div>
+        <nav class="nav-col">
+          <p class="footer-header">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Sign in</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-header">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About FeastNook</a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Cooking partner</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-header">Resources</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Recipe directory</a></li>
+            <li><a class="footer-link" href="#">Help center</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
